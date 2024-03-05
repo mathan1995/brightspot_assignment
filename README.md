@@ -1,7 +1,6 @@
 # Brightspot Assignment
 
-# Project Title
-BrightSpot App
+# BrightSpot App
 
 ## Production URL:
 
