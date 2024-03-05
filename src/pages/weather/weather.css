@@ -1,0 +1,46 @@
+.tilesWeather {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+
+.tileWeather {
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--colors-todo-bg);
+  border: 0.1px solid var(--colors-text-primary);
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  transition: 0.25s ease;
+  color: var(--text-primary);
+}
+
+.tileWeather_header {
+  display: flex;
+  align-items: center;
+}
+
+.tileWeather_header>h1 {
+  font-size: 80px;
+}
+
+.tileWeather_header>h3 {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.375;
+  margin-left: 0.5rem;
+}
+
+
+
+@media (max-width: 700px) {
+  .tilesWeather {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
