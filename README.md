@@ -3,9 +3,9 @@
 # Project Title
 BrightSpot App
 
-## Demo link:
+## Production URL:
 
-Access my site at [DEMO LINK](https://brightspot.mathangan.com)
+Access Production URL [DEMO LINK](https://brightspot.mathangan.com)
 
 ## Table of Content:
 
