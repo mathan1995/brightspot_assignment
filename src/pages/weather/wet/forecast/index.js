@@ -7,7 +7,7 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion";
 import "./forecast.css";
-import { AiOutlineArrowDown, AiOutlineFieldBinary } from "react-icons/ai";
+import { AiOutlineArrowDown } from "react-icons/ai";
 const WEEK_DAYS = [
   "Monday",
   "Tuesday",
