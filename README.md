@@ -5,7 +5,7 @@ BrightSpot App
 
 ## Demo link:
 
-Access my site at [google.com](https://brightspot.mathangan.com)
+Access my site at [DEMO LINK](https://brightspot.mathangan.com)
 
 ## Table of Content:
 
