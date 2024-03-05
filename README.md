@@ -1,7 +1,5 @@
 # Brightspot Assignment
 
-# BrightSpot App
-
 ## Production URL:
 
 Access Production URL [DEMO LINK](https://brightspot.mathangan.com)
