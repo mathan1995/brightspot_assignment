@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import Search from "./wet/search";
-import CurrentWeather from "./wet/currentWeather";
-import Forecast from "./wet/forecast";
-import { WEATHER_API_URL, WEATHER_API_KEY } from "./wet/api";
+import Search from "./elements/search";
+import CurrentWeather from "./elements/currentWeather";
+import Forecast from "./elements/forecast";
+import { WEATHER_API_URL, WEATHER_API_KEY } from "./elements/api";
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);

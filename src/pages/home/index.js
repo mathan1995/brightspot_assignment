@@ -30,9 +30,9 @@ const Home = () => {
       </article>
       <article class="tile">
         <div class="tile-header">
-          <h1>10</h1>
+          <h1>7</h1>
           <h3>
-            <span>Tasks to complete</span>
+            <span>Views</span>
           </h3>
         </div>
       </article>
