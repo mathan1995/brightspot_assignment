@@ -19,13 +19,13 @@ Assignment given for frontend and UI Development from brightspot.
 some Dahboard contents are mocked / hardcoded
 
 ## Screenshots
+
 <img width="1777" alt="Screenshot 2024-03-04 at 11 35 00 PM" src="https://github.com/mathan1995/brightspot_assignment/assets/30531450/55ad2e94-8014-4bc5-8f9f-afe9e4502752">
-<img width="1786" alt="Screenshot 2024-03-04 at 11 31 34 PM" src="https://github.com/mathan1995/brightspot_assignment/assets/30531450/2e471692-1013-4cb7-980d-63d4251e92ca">
+<img width="1782" alt="Screenshot 2024-03-07 at 12 34 21 AM" src="https://github.com/mathan1995/brightspot_assignment/assets/30531450/e51346df-70ed-47fb-aec0-150461686675">
 <img width="1781" alt="Screenshot 2024-03-04 at 11 39 47 PM" src="https://github.com/mathan1995/brightspot_assignment/assets/30531450/bf9f4a52-62ee-422b-a1f6-092b85f74da2">
 <img width="1779" alt="Screenshot 2024-03-04 at 11 31 53 PM" src="https://github.com/mathan1995/brightspot_assignment/assets/30531450/c036c5f2-698f-4b7b-bafd-8eb571315a75">
 <img width="1782" alt="Screenshot 2024-03-04 at 11 35 47 PM" src="https://github.com/mathan1995/brightspot_assignment/assets/30531450/2a516007-7b44-4cae-b069-05721b4b4c63">
 <img width="1790" alt="Screenshot 2024-03-04 at 11 35 58 PM" src="https://github.com/mathan1995/brightspot_assignment/assets/30531450/5832adfe-d076-4280-b521-f0b45ec42af2">
-
 
 ## Technologies
 
