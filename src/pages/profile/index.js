@@ -1,83 +1,157 @@
 import React from "react";
 import "./profile.css";
+import {
+  AiOutlineInstagram,
+  AiOutlineFacebook,
+  AiOutlineLinkedin,
+} from "react-icons/ai";
+
+const data = {
+  name: "mathangan",
+};
+
+// TODO: Need to mock all hardcoded data
 const Profile = () => {
   return (
-    <div class="container-main">
-      <div class="profile-card">
-        <div class="profile-header">
-          <div class="main-profile">
-            <div class="profile-image"></div>
-            <div class="profile-names">
-              <h1 class="username">Brightspot</h1>
-              <small class="page-title">Front-End developer</small>
+    <>
+      <div class="profileWrapper">
+        <div class="left">
+          <img
+            src="https://mathangan.com/assets/mypic-5daa610e.jpeg"
+            alt="user"
+          />
+          <h4 className="profilePadge">Mathangan Jeyakantharajah</h4>
+          <p className="profilePadge">Frontend Developer</p>
+          <span className="profileBio">
+            Irure ipsum non sunt sit labore nostrud pariatur duis aliqua tempor
+            labore. Nulla id dolor consequat culpa quis in non nulla nisi
+            dolore. Quis amet duis pariatur aliqua irure aliquip consequat ut
+            aliquip pariatur aliquip irure et incididunt. Irure ipsum non sunt
+            sit labore nostrud pariatur duis aliqua tempor labore. Nulla id
+            dolor consequat culpa quis in non nulla nisi dolore. Quis amet duis
+            pariatur aliqua irure aliquip consequat ut aliquip pariatur aliquip
+            irure et incididunt.
+          </span>
+        </div>
+        <div class="right">
+          <div class="info">
+            <h3>Information</h3>
+            <div class="info_data">
+              <div class="data">
+                <h4>Email</h4>
+                <p>mathanganjeya@gmail.com</p>
+              </div>
+              <div class="data">
+                <h4>Phone</h4>
+                <p>0001-213-998761</p>
+              </div>
+            </div>
+            <div class="info_data">
+              <div class="data">
+                <h4>Address</h4>
+                <p>Calgary, AB</p>
+              </div>
+              <div class="data">
+                <h4>Age</h4>
+                <p>00</p>
+              </div>
+            </div>
+            <div class="info_data">
+              <div class="data">
+                <h4>Education</h4>
+                <p>Software Engineering</p>
+              </div>
+              <div class="data">
+                <h4>Rating</h4>
+                <p>4+</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="profile-body">
-          <div class="profile-actions">
-            <button class="follow">Follow</button>
-            <section class="bio">
-              <div class="bio-header">
-                <i class="fa fa-info-circle"></i>
-                Bio
-              </div>
-              <p class="bio-text">Welcome to Brightspot</p>
-            </section>
-          </div>
-
-          <div class="account-info">
-            <div class="data">
-              <div class="important-data">
-                <section class="data-item">
-                  <h3 class="value">104</h3>
-                  <small class="title">Projects</small>
-                </section>
-                <section class="data-item">
-                  <h3 class="value">21K</h3>
-                  <small class="title">Clients</small>
-                </section>
-
-                <section class="data-item">
-                  <h3 class="value">51</h3>
-                  <small class="title">Pending</small>
-                </section>
-              </div>
-              <div class="other-data">
+          <div class="projects">
+            <h3>Projects</h3>
+            <div class="projects_data">
+              <div class="data">
+                <h4>Recent</h4>
                 <p>
-                  Pioneering Multimodal Generative AI At Brightspot, we are at
-                  the forefront of innovation, weaving together the realms of
-                  technology and artificial intelligence to redefine how humans
-                  interact with technology We specialize in crafting
-                  state-of-the-art Multimodal Generative AI systems that
-                  seamlessly integrate images, videos, audio, and textual
-                  prompts. Our groundbreaking technology reshapes the landscape
-                  of content creation, conversion, and interaction. Our Vision:
-                  At Brightspot, we envision a future where AI not only
-                  understands but also creates with a touch of human-like
-                  creativity. Join us in pushing the boundaries, and exploring
-                  the untapped potential of artificial intelligence.
+                  Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem
+                  ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum
+                  dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit
+                  ametLorem ipsum dolor sit amet.
+                </p>
+              </div>
+              <div class="data">
+                <h4>Higher Rated</h4>
+                <p>
+                  Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem
+                  ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum
+                  dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit
+                  ametLorem ipsum dolor sit amet.
+                </p>
+              </div>
+              <div class="data">
+                <h4>Most Viewed</h4>
+                <p>
+                  Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem
+                  ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum
+                  dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit
+                  ametLorem ipsum dolor sit amet.
                 </p>
               </div>
             </div>
-
-            <div class="last-post">
-              <div class="post-cover">
-                <span class="last-badge">Last Post</span>
+            <div class="projects_data">
+              <div class="data">
+                <h4>Factors</h4>
+                <p>
+                  Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem
+                  ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum
+                  dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit
+                  ametLorem ipsum dolor sit amet.
+                </p>
               </div>
-              <h3 class="post-title">3D layer</h3>
-              <p className="post-desc">
-                Our groundbreaking technology reshapes the landscape of content
-                creation, conversion, and interaction. Our Vision: At Brightspot
-                Our groundbreaking technology reshapes the landscape of content
-                creation, conversion, and interaction. Our Vision: At Brightspot
-                Our groundbreaking technology reshapes the
-              </p>
+              <div class="data">
+                <h4>Delivery %</h4>
+                <p>
+                  Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem
+                  ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum
+                  dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit
+                  ametLorem ipsum dolor sit amet.
+                </p>
+              </div>
+              <div class="data">
+                <h4>Accuracy</h4>
+                <p>
+                  Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem
+                  ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum
+                  dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit
+                  ametLorem ipsum dolor sit amet.
+                </p>
+              </div>
             </div>
+          </div>
+
+          <div class="social_media">
+            <ul>
+              <li>
+                <a href="#">
+                  <AiOutlineInstagram />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <AiOutlineFacebook />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <AiOutlineLinkedin />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

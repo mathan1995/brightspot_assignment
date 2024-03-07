@@ -30,23 +30,23 @@ textarea {
   --secondary-bg: #262626;
   --accent-bg: #4f46e5;
   --primary-color: #fff;
-  --secondary-color: rgba(255, 255, 255, 70%);
+  --secondary-color: #ffffffb3;
   --accent-color: #818cf8;
-  --border-color: rgba(255, 255, 255, 30%);
+  --border-color: #ffffff4d;
   --username-size: 32px;
   --title-size: 28px;
   --subtitle: 24px;
   --c-olive-500: #e3ffa8;
-  --colors-app-bg: hsl(236, 33%, 92%);
-  --colors-todo-bg: hsl(0, 0%, 98%);
-  --colors-completed-todo: hsl(233, 11%, 84%);
-  --colors-text-secondary: hsl(236, 9%, 61%);
-  --colors-br: hsl(236, 33%, 92%);
-  --colors-text-primary: hsl(235, 19%, 35%);
-  --colors-tab-active: rgb(58, 123, 253);
+  --colors-app-bg: #e4e5f1;
+  --colors-todo-bg: #fafafa;
+  --colors-completed-todo: #d2d3db;
+  --colors-text-secondary: #9394a5;
+  --colors-br: #e4e5f1;
+  --colors-text-primary: #484b6a;
+  --colors-tab-active: #3a7bfd;
   --colors-check-gradient: linear-gradient(135deg,
-      hsl(266, 100%, 67%),
-      hsl(337, 87%, 65%));
+      #a057ff,
+      #f35894);
 }
 
 
@@ -105,6 +105,10 @@ main {
   body {
     background-image: var(--bg-mobile);
   }
+
+  .profileWrapper {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 600px) {
@@ -115,5 +119,9 @@ main {
   main {
     padding: 3rem 1rem 2rem;
     gap: 2rem;
+  }
+
+  .profileWrapper {
+    flex-direction: column;
   }
 }
